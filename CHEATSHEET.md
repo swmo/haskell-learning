@@ -6,6 +6,24 @@
 > 2 * (-4)
 
 ### Operators
+Operaters are functions in Haskell! 
+
+and:
+bool && bool
+> true && true 
+
+Resulat: true
+
+> 1 == 1 
+
+Resultat: true
+ 
+or:
+
+> False || True
+
+Resultat: true
+
 not equal:
 > not (1 == 1)
 
