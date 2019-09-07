@@ -8,10 +8,10 @@
 ### Operators
 not equal:
 > not (1 == 1)
-> False
+Resultat: False
 
 > 1 /= 1
-> False
+Resultat False
 
 
 ## Functions
