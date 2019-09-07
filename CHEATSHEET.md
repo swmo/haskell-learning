@@ -8,9 +8,11 @@
 ### Operators
 not equal:
 > not (1 == 1)
+
 Resultat: False
 
 > 1 /= 1
+
 Resultat False
 
 
