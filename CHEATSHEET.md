@@ -6,5 +6,5 @@
 ## GHCI
 
 test.hs File einlesen 
-''' :l test '''
+> :l test 
 
