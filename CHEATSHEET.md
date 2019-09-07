@@ -5,6 +5,8 @@
 - Negative Nummern immer in Klammern angeben (GHCI wird sonst einen Fehler melden)
 > 2 * (-4)
 
+- https://hoogle.haskell.org/
+
 ### Operators
 Operaters are functions in Haskell! 
 
