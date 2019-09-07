@@ -53,6 +53,10 @@ Die Klammern werden benötigt wenn man eine Funktion in einer Funktion ausführt
 Beispiel:
 > testFunktion (43 + 1) (21 + 1)
 
+> funktion01 (funktion02 argument01fuerFunktion02)
+
+Die Reihenfolge wie die Funktionen definiert sind spielt keine Rolle.
+
 ### Basic functions:
 **succ**
 succ type_with_an_successor
@@ -73,10 +77,25 @@ Resultat 11
 
 Resultat 199
 
+
+## Expressions
+Expression ein ein code welcher ein Wert zurückgibt. Das Resultat ist immer eine Expression.
+Versteh ich noch nicht ganz..
+
+### If
+Jede Expression und Funktion muss in Haskell etwas returnen. Daher muss für jedes if ein else definiert werden!
+
+
+
 ## GHCI
 Statt Prelude einen anderen Namen bei GHCI anzeigen:
 > :set prompt "ghci> "
 
 test.hs File einlesen 
 > :l test 
+
+
+## Quellen
+- http://learnyouahaskell.com: gute Einführung in Haskell.
+
 
