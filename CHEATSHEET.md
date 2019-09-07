@@ -6,6 +6,7 @@
 > 2 * (-4)
 
 - https://hoogle.haskell.org/
+- https://hackage.haskell.org/package/CheatSheet-1.11/src/CheatSheet.pdf
 
 ### Operators
 Operaters are functions in Haskell! 
