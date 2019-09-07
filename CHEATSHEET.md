@@ -44,7 +44,7 @@ Resultat False
 ## Functions
 - Bei den Aufrufen von Funktionen werden Leerzeichen statt wie meist in ander Programmiersprachen üblich Klammern verwendet
 - Functions können nicht mit einem Grossbuchstaben beginnen.
- 
+
 beispiel PHP
 > testFunktion(44,22)
 
@@ -80,12 +80,12 @@ Resultat 11
 Resultat 199
 
 
-## Expressions
+### Expressions
 Expression ein ein code welcher ein Wert zurückgibt. Das Resultat ist immer eine Expression.
 Versteh ich noch nicht ganz..
 
 
-## Definition 
+### Definition 
 eine Funktion welche keine Parameter / Argumente hat nennt man definition oder name
 > thisIsADefinition = "ich bin eine definiton"
 
