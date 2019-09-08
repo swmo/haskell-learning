@@ -61,6 +61,8 @@ Beispiel:
 
 Die Reihenfolge wie die Funktionen definiert sind spielt keine Rolle.
 
+- infix function. Jede Funktion mit zwei Argumenten lässst sich als infix Function aufrufen. dies kann mit dem ` gemacht werden: Beispiel: 1 `drop` [1,4,5]
+
 ### Basic functions:
 **succ**
 succ type_with_an_successor
@@ -227,6 +229,21 @@ Resultat: 1
 > maximum [8,4,2,1,5,6]
 
 Resultat 8
+
+**sum**
+Nimmt eine Liste und gibt die Summe zurück
+
+> sum [1,4,5]
+
+Resultat: 10
+
+**product**
+Nimmt eine Liste und gibt das produkt zurück (mutlipliziert jedes Element)
+
+> product [1,4,5]
+
+Resultat 20
+
 
 
 ## GHCI
