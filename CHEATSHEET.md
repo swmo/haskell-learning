@@ -103,9 +103,17 @@ Jede Expression und Funktion muss in Haskell etwas returnen. Daher muss für jed
 **++ zwei Listen zusammenführen**
 - Mit dem ++ Operator können zwei Listen zusammengeführt werden
 > ['1','2'] ++ ['3','4']
+> ['1','2','3'] ++ ['4'] beide Werte müssen eine List sein!
 
-    - Achtung: Haskell muss mit dem ++ Operator die ganze linke Liste durchgehen -> ein Problem wenn die Liste extrem gross ist.
-    - Eine Lösung dazu 
+ - Achtung: Haskell muss mit dem ++ Operator die ganze linke Liste durchgehen -> ein Problem wenn die Liste extrem gross ist.
+ - Eine Lösung dazu ist mit : (auch cons operator genannt) fügt ein Wert zu Beginn einer Liste hinzu
+
+> 'D' : "as Haus ist schön"  
+>  1 : [2,3,4]
+
+Im Prinzip ist [1,2,3] das gleiche wie 1:2:3:[]
+
+
 
 ## GHCI
 Statt Prelude einen anderen Namen bei GHCI anzeigen:
