@@ -210,6 +210,24 @@ nimmt eine Nummer und eine Liste. extrahiert die Anzahl Elemente vom Anfang der 
 [1,2,3]
 
 **drop**
+nimmt eine Nummer und eine Liste. Löscht die Anzahl Element vom Anfang der Liste
+
+> drop 3 [1,2,3,4,5,6,7,8]
+
+[4,5,6,7,8]
+
+**maximum**
+**minimum**
+Nimmt eine Liste und gibt das kleinste / grösste Element zurück.
+
+> minimum [8,4,2,1,5,6]
+
+Resultat: 1
+
+> maximum [8,4,2,1,5,6]
+
+Resultat 8
+
 
 ## GHCI
 Statt Prelude einen anderen Namen bei GHCI anzeigen:
