@@ -71,7 +71,8 @@ Resultat 11
 **min / max**
 Nimmt zwei Argumente welche in eine Reihenfolge gelegt werden können (Z. B. Nummern)
 min gibt den kleineren Wert zurück
-max gibt den grösseren Wert zurück. Bei Strings wird das erste Zeichen verglichen.
+max gibt den grösseren Wert zurück. Bei Strings wird das erste Zeichen verglichen, falls diese gleiche sind wird der zweite Wert verglichen -> wie bei den Listen, da ein String auch eine List ist..
+
 > min 11 199
 
 Resultat 11
@@ -108,11 +109,19 @@ Jede Expression und Funktion muss in Haskell etwas returnen. Daher muss für jed
  - Achtung: Haskell muss mit dem ++ Operator die ganze linke Liste durchgehen -> ein Problem wenn die Liste extrem gross ist.
  - Eine Lösung dazu ist mit : (auch cons operator genannt) fügt ein Wert zu Beginn einer Liste hinzu
 
+**: in Element der Liste hinzugefügen**
 > 'D' : "as Haus ist schön"  
 >  1 : [2,3,4]
 
 Im Prinzip ist [1,2,3] das gleiche wie 1:2:3:[]
 
+**!! ein Element aus einer Liste entnehmen**
+- mit dem !! kan ein Elment über den Index ausgelesen werden. Der index startet mit 0
+>[1 .. 1000] !! 444
+
+Resultat 445
+
+**<,<=,>,>= Vergleichen**
 
 
 ## GHCI
