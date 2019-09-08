@@ -103,6 +103,7 @@ Jede Expression und Funktion muss in Haskell etwas returnen. Daher muss für jed
 **++ zwei Listen zusammenführen**
 - Mit dem ++ Operator können zwei Listen zusammengeführt werden
 > ['1','2'] ++ ['3','4']
+
     - Achtung: Haskell muss mit dem ++ Operator die ganze linke Liste durchgehen -> ein Problem wenn die Liste extrem gross ist.
     - Eine Lösung dazu 
 
