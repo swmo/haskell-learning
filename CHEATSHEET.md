@@ -162,15 +162,15 @@ Wert: [2,3,4,5]
 - nimmt eine Liste und gibt das letzte Element zurück
 
 > last [1,2,3,4,5]
+
 Wert: 5
 
 **init** 
 - nimmt eine Liste und gibt alle Elemente bis auf das letzte zurück
 
 > init [1,2,3,4,5]
+
 Wert: [1,2,3,4]
-
-
 
 ## GHCI
 Statt Prelude einen anderen Namen bei GHCI anzeigen:
