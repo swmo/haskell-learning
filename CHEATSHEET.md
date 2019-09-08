@@ -71,7 +71,7 @@ Resultat 11
 **min / max**
 Nimmt zwei Argumente welche in eine Reihenfolge gelegt werden können (Z. B. Nummern)
 min gibt den kleineren Wert zurück
-max gibt den grösseren Wert zurück
+max gibt den grösseren Wert zurück. Bei Strings wird das erste Zeichen verglichen.
 > min 11 199
 
 Resultat 11
@@ -79,6 +79,9 @@ Resultat 11
 > max 11 199
 
 Resultat 199
+
+>min "bert" "cber"
+Resultat "bert"
 
 ### Expressions
 Expression ein ein code welcher ein Wert zurückgibt. Das Resultat ist immer eine Expression.
@@ -98,7 +101,10 @@ Jede Expression und Funktion muss in Haskell etwas returnen. Daher muss für jed
 - strings sind in haskell auch lists "hello" ist dann ['h','e','l','l','o']
 
 **++ zwei Listen zusammenführen**
-
+- Mit dem ++ Operator können zwei Listen zusammengeführt werden
+> ['1','2'] ++ ['3','4']
+    - Achtung: Haskell muss mit dem ++ Operator die ganze linke Liste durchgehen -> ein Problem wenn die Liste extrem gross ist.
+    - Eine Lösung dazu 
 
 ## GHCI
 Statt Prelude einen anderen Namen bei GHCI anzeigen:
