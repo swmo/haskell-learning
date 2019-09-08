@@ -16,7 +16,8 @@ bool && bool
 > true && true 
 
 Resulat: true
-same type == same type
+
+**equal: same type == same type**
 > 1 == 1 
 
 Resultat: true
@@ -122,6 +123,18 @@ Im Prinzip ist [1,2,3] das gleiche wie 1:2:3:[]
 Resultat 445
 
 **<,<=,>,>= Vergleichen**
+- Eine Liste kann verglichen werden, wenn der Inhalt vergleichbar ist
+- es wird der Kopf / Head verglichen, respektive zuerst dass erste Element, sind beide gleich, dann das zweite
+- Bei strings wird die Liste alphabetisch verglichen, bei Zahlen nummerisch
+
+>Prelude> ["b"] > ["a"]
+>True
+>Prelude> ["b"] > ["c"]
+>False
+>Prelude> ["bb"] > ["ba"]
+>True
+>Prelude> ["ba"] > ["bb"]
+>False
 
 
 ## GHCI
