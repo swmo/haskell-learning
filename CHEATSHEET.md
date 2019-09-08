@@ -128,12 +128,19 @@ Resultat 445
 - Bei strings wird die Liste alphabetisch verglichen, bei Zahlen nummerisch
 
 >Prelude> ["b"] > ["a"]
+
 >True
+
 >Prelude> ["b"] > ["c"]
+
 >False
+
 >Prelude> ["bb"] > ["ba"]
+
 >True
+
 >Prelude> ["ba"] > ["bb"]
+
 >False
 
 
