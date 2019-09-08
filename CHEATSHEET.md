@@ -61,7 +61,9 @@ Beispiel:
 
 Die Reihenfolge wie die Funktionen definiert sind spielt keine Rolle.
 
-- infix function. Jede Funktion mit zwei Argumenten lässst sich als infix Function aufrufen. dies kann mit dem ` \` ` gemacht werden: Beispiel: 1 \`drop\` [1,4,5]
+- infix function. Jede Funktion mit zwei Argumenten lässst sich als infix Function aufrufen. dies kann mit dem  \`  gemacht werden: Beispiel: 1 \`drop\` [1,4,5]. Z. B. + ist eine infix Function (1 + 1). Infix kann bei der lesbarkeit helfen
+
+> 4 `elem` [3,4,5,6] 
 
 ### Basic functions:
 **succ**
@@ -245,6 +247,42 @@ Nimmt eine Liste und gibt das produkt zurück (mutlipliziert jedes Element)
 Resultat 20
 
 
+**elem** 
+Prüft ob ein Element in der Liste existiert.
+Wird oft als infix aufgerufen (einfacher lesbar)
+
+> 4 `elem` [3,4,5,6]  
+
+Resultat: true
+
+#### Texas ranges (..)
+Es ist möglich in Haskell Liste mit bestimmten Schritten zu generieren
+
+> [1..10] 
+
+Resultat: [1,2,3,4,5,6,7,8,9,10]
+
+> ['a'..'z']  
+
+Resultat: "abcdefghijklmnopqrstuvwxyz"
+
+Auch in Schritte ist möglich:
+> [1,3..11] 
+Resultat: [1,3,5,7,9,11]
+
+Resultat: "abcdefghijklmnopqrstuvwxyz" 
+
+Achtung Floating Nummer besser nicht verwenden:
+> [0.1, 0.3 .. 1]  
+[0.1,0.3,0.5,0.7,0.8999999999999999,1.0999999999999999] 
+
+zum Herunterzählen braucht Haskell die Angabe des schrittes 
+
+> [20,19..1]
+
+Resultat: [20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1]
+
+> [20..1] Funktioniert nicht!
 
 ## GHCI
 Statt Prelude einen anderen Namen bei GHCI anzeigen:
