@@ -172,6 +172,45 @@ Wert: 5
 
 Wert: [1,2,3,4]
 
+Achtung!: Die Funktionen head, tail, last, init unterstützen keine empty list! Zudem erkennt der compiler das nicht ob es möglich ist -> dies muss der Programmierer im Griff haben.
+
+
+**length** 
+Nimmt eine Liste und gibt die Länge zurück
+
+> length [1,2,3]
+
+Resultat: 3
+
+
+**null** 
+Prüft ob die Liste leer ist (true) oder elmente besitz (false)
+
+> null []
+
+Resultat: true
+
+**reverse** 
+Kehrt die Reichenfolge der Elemente
+
+> reverse [1,2,3]
+
+[3,2,1]
+
+> reverse [[1],[1,2],[1,2,3]]
+
+[[1,2,3],[1,2],[1]]
+
+
+**take**
+nimmt eine Nummer und eine Liste. extrahiert die Anzahl Elemente vom Anfang der Liste
+
+> take 3 [1,2,3,4,5,6,7,8]
+
+[1,2,3]
+
+**drop**
+
 ## GHCI
 Statt Prelude einen anderen Namen bei GHCI anzeigen:
 > :set prompt "ghci> "
