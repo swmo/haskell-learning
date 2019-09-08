@@ -97,6 +97,9 @@ Jede Expression und Funktion muss in Haskell etwas returnen. Daher muss für jed
 - sind homogenous data struktur bedeutet es können nur Elemente vom gleichen Typ gespeichert werden.
 - strings sind in haskell auch lists "hello" ist dann ['h','e','l','l','o']
 
+**++ zwei Listen zusammenführen**
+
+
 ## GHCI
 Statt Prelude einen anderen Namen bei GHCI anzeigen:
 > :set prompt "ghci> "
