@@ -61,7 +61,7 @@ Beispiel:
 
 Die Reihenfolge wie die Funktionen definiert sind spielt keine Rolle.
 
-- infix function. Jede Funktion mit zwei Argumenten lässst sich als infix Function aufrufen. dies kann mit dem ` gemacht werden: Beispiel: 1 `drop` [1,4,5]
+- infix function. Jede Funktion mit zwei Argumenten lässst sich als infix Function aufrufen. dies kann mit dem \` gemacht werden: Beispiel: 1 \`drop\` [1,4,5]
 
 ### Basic functions:
 **succ**
