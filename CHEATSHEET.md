@@ -44,6 +44,7 @@ Resultat False
 ## Functions
 - Bei den Aufrufen von Funktionen werden Leerzeichen statt wie meist in ander Programmiersprachen üblich Klammern verwendet
 - Functions können nicht mit einem Grossbuchstaben beginnen.
+- ' Astrophe kann im Funktionsname verwendet werden. Normlarweise wird dies genutzt bei der es um eine leicht modifzierte Version oder eine stricte Version (nicht lazy) der Funktion geht.
 
 beispiel PHP
 > testFunktion(44,22)
@@ -79,11 +80,9 @@ Resultat 11
 
 Resultat 199
 
-
 ### Expressions
 Expression ein ein code welcher ein Wert zurückgibt. Das Resultat ist immer eine Expression.
 Versteh ich noch nicht ganz..
-
 
 ### Definition 
 eine Funktion welche keine Parameter / Argumente hat nennt man definition oder name
@@ -92,7 +91,11 @@ eine Funktion welche keine Parameter / Argumente hat nennt man definition oder n
 ### If
 Jede Expression und Funktion muss in Haskell etwas returnen. Daher muss für jedes if ein else definiert werden!
 
+> doubleSmallNumber x = if x < 100 then x * 2 else x
 
+### lists
+- sind homogenous data struktur bedeutet es können nur Elemente vom gleichen Typ gespeichert werden.
+- strings sind in haskell auch lists "hello" ist dann ['h','e','l','l','o']
 
 ## GHCI
 Statt Prelude einen anderen Namen bei GHCI anzeigen:
@@ -100,6 +103,14 @@ Statt Prelude einen anderen Namen bei GHCI anzeigen:
 
 test.hs File einlesen 
 > :l test 
+
+Funktionen können mit let on the fly in der prompt gesetzt werden.
+Beispiel:
+> let doubleSmallNumber x = if x < 100 then x * 2 else x
+
+Ist das gleiche wie im hs file:
+> doubleSmallNumber ....
+
 
 
 ## Quellen
