@@ -135,9 +135,7 @@ Resultat 445
 
 >False
 
->Prelude> ["bb"] > ["ba"]
-
->True
+>Prelude> ["bb"] > ["ba"] \n True
 
 >Prelude> ["ba"] > ["bb"]
 
