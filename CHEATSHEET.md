@@ -135,11 +135,41 @@ Resultat 445
 
 >False
 
->Prelude> ["bb"] > ["ba"] \n True
+>Prelude> ["bb"] > ["ba"]
+
+> True
 
 >Prelude> ["ba"] > ["bb"]
 
 >False
+
+
+**head** 
+- nimmt eine Liste und gibt das erste Element zurück
+
+> head [1,2,3,4,5]
+
+Wert: 1
+
+**tail**
+- nimmt eine Liste und gibt alle Elemente bis auf das erste Element die Liste zurück
+
+> tail [1,2,3,4,5]
+
+Wert: [2,3,4,5]
+
+**last** 
+- nimmt eine Liste und gibt das letzte Element zurück
+
+> last [1,2,3,4,5]
+Wert: 5
+
+**init** 
+- nimmt eine Liste und gibt alle Elemente bis auf das letzte zurück
+
+> init [1,2,3,4,5]
+Wert: [1,2,3,4]
+
 
 
 ## GHCI
