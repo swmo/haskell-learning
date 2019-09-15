@@ -51,6 +51,10 @@ Resultat False
   halloAdd2String a b = "hallo" ++ a ++ b
   Die Defintion ist dann:
   halloAdd2String:: [Char] -> ([Char] -> [Char])
+  
+  halloAdd2String "James" "Bond"
+  Ausgeführt wird das ganze dann zuerst mit dem ersten Argument und gibt es weiter an das zweite:
+  ((halloAdd2STring "James") "Bond")
 
 beispiel PHP
 > testFunktion(44,22)
