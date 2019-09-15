@@ -73,7 +73,9 @@ Haskell kann in der oben genannte Fuktion automatisch die Signature bestimmen, d
 hallo ist ein string (list of chars) der Operator/Funktion ++ kann zwei Listen verbinden -> daher weis Haskell das sich die Funktion aus zwei Listen mit chars zusammensetzt. 
 Man kann die Funktion Signature aber auch hinschreiben:
 
-halloAddSTring :: [char] ++ [char]
+halloAddString :: [char] -> [char]
+Das bedeutetd die Funktion halloAddString nimmt ein list als argument  und gibt eine list zurück
+
 
 
 ### Basic functions:
