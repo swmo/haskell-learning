@@ -74,7 +74,7 @@ hallo ist ein string (list of chars) der Operator/Funktion ++ kann zwei Listen v
 Man kann die Funktion Signature aber auch hinschreiben:
 
 halloAddString :: [char] -> [char]
-Das bedeutetd die Funktion halloAddString nimmt ein list als argument  und gibt eine list zurück
+Das bedeutetd die Funktion halloAddString nimmt ein list als argument und produziert eine List 
 
 
 
