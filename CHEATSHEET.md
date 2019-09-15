@@ -94,7 +94,7 @@ Expression ein ein code welcher ein Wert zurückgibt. Das Resultat ist immer ein
 Versteh ich noch nicht ganz..
 
 ### Definition 
-eine Funktion welche keine Parameter / Argumente hat nennt man definition oder name
+eine Funktion welche keine Parameter / Argumente hat nennt man definition oder name -> ist aber troztdem eine "Funktion"
 > thisIsADefinition = "ich bin eine definiton"
 
 ### If
