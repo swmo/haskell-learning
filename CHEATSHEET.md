@@ -71,9 +71,10 @@ halloAddString s = "hallo" ++ s
 
 Haskell kann in der oben genannte Fuktion automatisch die Signature bestimmen, da diese eindeutig ist, respektive 
 hallo ist ein string (list of chars) der Operator/Funktion ++ kann zwei Listen verbinden -> daher weis Haskell das sich die Funktion aus zwei Listen mit chars zusammensetzt. 
-Man kann die Funktion Signature aber auch hinschreiben:
+Man kann die Funktion Signature aber auch hinschreiben (zur verbesserten Lesbarkeit), die Defintion wird oberhalb der Funktion gesetzt:
 
 halloAddString :: [char] -> [char]
+halloAddString s = "hallo" ++ s 
 Das bedeutetd die Funktion halloAddString nimmt ein list als argument und produziert eine List 
 
 
