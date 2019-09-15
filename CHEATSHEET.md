@@ -322,6 +322,10 @@ Ist das gleiche wie im hs file:
 > doubleSmallNumber ....
 
 
+Polymorphic Types?? 
+Verste ich noch nicht ganz, length ist zum Beispiel ein Polymorphic Type
+
+
 
 ## Quellen
 - http://learnyouahaskell.com: gute Einführung in Haskell.
