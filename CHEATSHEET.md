@@ -326,7 +326,7 @@ Polymorphic Types??
 Verste ich noch nicht ganz, length ist zum Beispiel ein Polymorphic Type
 
 Patttern Matching auch noch anschauen!
-
+Auch Guard Pattern Matching!
 
 
 ## Quellen
