@@ -65,6 +65,17 @@ Die Reihenfolge wie die Funktionen definiert sind spielt keine Rolle.
 
 > 4 `elem` [3,4,5,6] 
 
+### Function Signature
+
+halloAddString s = "hallo" ++ s
+
+Haskell kann in der oben genannte Fuktion automatisch die Signature bestimmen, da diese eindeutig ist, respektive 
+hallo ist ein string (list of chars) der Operator/Funktion ++ kann zwei Listen verbinden -> daher weis Haskell das sich die Funktion aus zwei Listen mit chars zusammensetzt. 
+Man kann die Funktion Signature aber auch hinschreiben:
+
+halloAddSTring :: [char] ++ [char]
+
+
 ### Basic functions:
 **succ**
 succ type_with_an_successor
