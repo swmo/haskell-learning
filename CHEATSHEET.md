@@ -46,6 +46,11 @@ Resultat False
 - Bei den Aufrufen von Funktionen werden Leerzeichen statt wie meist in ander Programmiersprachen üblich Klammern verwendet
 - Functions können nicht mit einem Grossbuchstaben beginnen.
 - ' Astrophe kann im Funktionsname verwendet werden. Normlarweise wird dies genutzt bei der es um eine leicht modifzierte Version oder eine stricte Version (nicht lazy) der Funktion geht.
+- Jede Funktion in Haskell ist eigentlich immer eine 1x Argument Funktion! (Werden über ein Curring ausgeführt -> bedeutet nacheinander)
+  Beispiel:
+  halloAdd2String a b = "hallo" ++ a ++ b
+  Die Defintion ist dann:
+  halloAdd2String:: [Char] -> ([Char] -> [Char])
 
 beispiel PHP
 > testFunktion(44,22)
