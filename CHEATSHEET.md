@@ -325,6 +325,8 @@ Ist das gleiche wie im hs file:
 Polymorphic Types?? 
 Verste ich noch nicht ganz, length ist zum Beispiel ein Polymorphic Type
 
+Patttern Matching auch noch anschauen!
+
 
 
 ## Quellen
